@@ -22,5 +22,5 @@ The goal is to highlight how CSS can transform a single HTML file into two compl
 - Balanced use of whitespace for a clean, harmonious layout.
 - Decorative borders and hover animations.
 
-## **Setup Instructions**
+## **Check Project Live**
 EricVillanueva558.github.io
