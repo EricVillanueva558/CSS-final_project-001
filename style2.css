@@ -1,0 +1,125 @@
+/* General reset */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Noto Serif JP', serif;
+    color: #4a3f35;
+    background: linear-gradient(to bottom, #f7e3d6, #efc9c9);
+    background-image: url('saku2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    overflow-x: hidden;
+  }
+  
+  /* Page wrapper */
+  .page-wrapper {
+    width: 90%;
+    max-width: 1000px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #d1bfa7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  header h1 {
+    font-size: 3rem;
+    color: #8a4b41;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  
+  header h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #d17a69;
+  }
+  
+  /* Links */
+  a {
+    color: #d17a69;
+    text-decoration: none;
+    border-bottom: 1px solid #d17a69;
+  }
+  
+  a:hover {
+    color: #8a4b41;
+    border-bottom: 1px dashed #8a4b41;
+    text-decoration: underline;
+  }
+  
+  /* Sidebar navigation */
+  .sidebar nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .sidebar nav ul li {
+    list-style: none;
+  }
+  
+  .sidebar nav ul li a {
+    background: #d17a69;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .sidebar nav ul li a:hover {
+    transform: scale(1.1);
+    background: #8a4b41;
+    box-shadow: 0 0 10px rgba(138, 75, 65, 0.8);
+  }
+  
+  p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    font-size: 2rem;
+    border-left: 4px solid #8a4b41;
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+
+  .sidebar {
+    border-top: 2px solid #8a4b41;
+    padding-top: 20px;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    color: #8a4b41;
+    border-top: 1px solid #d1bfa7;
+    margin-top: 20px;
+  }
+  
+  /* Animations */
+  header h1 {
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
