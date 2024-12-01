@@ -1,11 +1,11 @@
 # **CSS Zen Garden: Neon and Japanese Aesthetic Themes**
 
-This project demonstrates the power and flexibility of CSS by applying two vastly different styles—**Futuristic** and **Japanese Aesthetic**—to the same HTML file. Both stylesheets showcase creative, professional, and production-ready designs that are toggled by switching stylesheets.
+This project demonstrates the power and flexibility of CSS by applying two vastly different styles—**Neon** and **Japanese Aesthetic**—to the same HTML file. Both stylesheets showcase creative, professional, and production-ready designs that are toggled by switching stylesheets.
 
 ## **Project Overview**
 
 The goal is to highlight how CSS can transform a single HTML file into two completely unique experiences:
-- **Futuristic Theme (style.css):** A sleek, high-tech design with glowing neon effects, animated backgrounds, and vibrant color schemes.
+- **Neon Theme (style.css):** A sleek, high-tech design with glowing neon effects, animated backgrounds, and vibrant color schemes.
 - **Japanese Aesthetic Theme (style2.css):** A calming, nature-inspired design with soft colors, elegant typography, and subtle cultural motifs.
 
 ## **Features**
